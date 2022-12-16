@@ -1,0 +1,177 @@
+@import url(./reset.css);
+
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: repeat;
+}
+
+/* NAVIGATION */
+nav{
+    background-color:skyblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: 1em;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 22px;
+    transition: 0.25s;
+}
+
+nav a:hover{
+    background-color: blue;
+}
+
+
+/* HEADER */
+ header{
+    background: url('../images/jason-dent-itA0ybdIDTs-unsplash.jpg');
+    z-index: -1;
+    opacity: 0.89;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+    height: 20em;
+}
+  
+ header h1{
+    
+font-size: 2.9em;
+}
+
+header h2{
+    font-size: 2.1em;
+}
+
+  button{
+    margin: 88px 9px;  
+    padding: 12px 11px;  
+   font-size: 15px;  
+   background-color: rgb(19,18,18);    
+    color: white;  
+  }  
+
+
+/* MAIN CONTENT */
+#main-content{
+    display: flex;
+    background-color: #fff;
+    width:100%;
+}
+
+
+/* MAIN */
+main{
+    order: 2;
+    width: 70.7%;
+    padding: 1.5em;
+}
+#figure-one  img{
+    width: 253px;
+    margin-right: 1.1em;
+}
+#figure-one{
+    float: left;
+}
+#figure-one cite{
+    display: block;
+ 
+    
+}
+#figure-one cite a{
+    
+    text-decoration: none;
+    color: #82C3EC;
+}
+#figure-two{
+    width: 250px;
+    float: right;
+
+}
+#figure-two cite a{
+    text-decoration: none;
+    color: #82C3EC;
+}
+
+
+
+/* ASIDE */
+aside{
+    order: 1;
+    width: 30%;
+    padding: 1.5em;
+    
+
+}
+aside h2{
+    background-color: #00a8ff ;
+    font-size: 1.7em;
+    color: #fff;
+    text-align: center;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0.3em;
+    
+}
+aside ul li:nth-of-type(even){
+    background-color: lightgray;
+}
+aside ul li{
+    padding: 0.5em;
+}
+aside ul li strong{
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* FOOTER */
+#main-footer-content{
+    display: flex;
+    background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    justify-content: center;
+    text-align: left;
+
+    align-items: center;
+    color: #fff;
+}
+#logo{
+    padding: 0.2em;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 20px;
+    transform: rotate(-45deg);
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+#main-footer-content p{
+    background-color: none;
+}
+
+footer p{
+    text-align: center;
+  background-image: url(../images/jason-dent-itA0ybdIDTs-unsplash.jpg);
+    color: #fff;
+}
+   
